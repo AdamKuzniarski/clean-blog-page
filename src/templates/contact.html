@@ -1,4 +1,4 @@
-{% import "./macros/form.html" as forms %}
+{% import "macros/form.html" as forms %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -104,7 +104,7 @@
               <!-- to get an API token!-->
               <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="form-floating">
-                  {{form.input("name","text","Enter your name...")}}
+                  {{forms.input(name="name",text= "text", required=true)}}
 
                   <label for="name">Name</label>
                   <div

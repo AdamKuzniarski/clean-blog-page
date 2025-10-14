@@ -1,5 +1,5 @@
-{% macro input(name,  type='text', placeholder="",) %}
+{% macro input(name,  type='text', placeholder="", required=false) %}
 <div class="form-control">
-  <input type="{{ type }}" name="{{ name }}" placeholder="" />
+  <input type="{{ type }}" name="{{ name }}" placeholder=""  data-sb-validations="{{ 'required' if required }}"/>
 </div>
 {% endmacro %}
