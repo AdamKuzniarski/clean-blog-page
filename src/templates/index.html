@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -49,17 +49,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto py-4 py-lg-0">
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link px-lg-3 py-3 py-lg-4" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html"
-                >About</a
-              >
+              <a class="nav-link px-lg-3 py-3 py-lg-4" href="about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html"
+              <a class="nav-link px-lg-3 py-3 py-lg-4" href="contact"
                 >Contact</a
               >
             </li>
@@ -70,13 +66,13 @@
     <!-- Page Header-->
     <header
       class="masthead"
-      style="background-image: url('assets/img/home-bg.jpg')"
+      style="background-image: url(&quot;assets/img/home-bg.jpg&quot;)"
     >
       <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
             <div class="site-heading">
-              <h1>Clean BlogXX</h1>
+              <h1>Clean Blog</h1>
               <span class="subheading">A Blog Theme by Start Bootstrap</span>
             </div>
           </div>
@@ -88,7 +84,7 @@
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
           <!-- Post preview-->
-          
+
           <!-- Divider-->
           <hr class="my-4" />
           <!-- Post preview-->
@@ -97,9 +93,7 @@
             <a href="post/{{item.createdAt}}"
               ><h2 class="post-title">{{item.title}}</h2></a
             >
-            <h3 class="post-subtitle">
-                {{item.teaser}}
-              </h3>
+            <h3 class="post-subtitle">{{item.teaser}}</h3>
             <p class="post-meta">
               {{item.author}}
               <a href="#!">Start Bootstrap</a>
@@ -109,7 +103,7 @@
           {%endfor%}
           <!-- Divider-->
           <hr class="my-4" />
-          
+
           <!-- Divider-->
           <hr class="my-4" />
           <!-- Pager-->
