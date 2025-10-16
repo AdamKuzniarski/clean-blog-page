@@ -847,12 +847,12 @@
   },
   {
     "id": "96",
-    "title": "Ethical Tech: A Practical Field Guide",
+    "title": "Ethical Tech: A Practical Fied Guide",
     "image": "ethical-tech.png",
     "author": "Peter Parker",
-    "createdAt": 1760572800,
-    "teaser": "Ethical Tech explained like a teammate in code review—kind, direct, specific.",
-    "content": "Ethical Tech in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+    "createdAt": "1760572800",
+    "teaser": "<p><br /></p><p><br /></p><p><br /></p>",
+    "content": "<p><br /></p><p><br /></p><p><br /></p>"
   },
   {
     "id": "97",
@@ -897,5 +897,41 @@
     "content": "asdasd",
     "id": "7e169f92-15d1-4c97-8e6a-b8854784fcf1",
     "createdAt": 1760604852
+  },
+  {
+    "title": "Julia entry2",
+    "image": "https://images.unsplash.com/photo-1564260670111-18b14e5e0b3e?ixlib=rb-…",
+    "author": "Juliua",
+    "teaser": "<p><br /></p><p><br /></p><h2>Jawohl!</h2>",
+    "content": "<p><br /></p><p>:)</p><p><br /></p>",
+    "id": "fedcea7b-0f2c-480c-a795-b052f2c00344",
+    "createdAt": "1760607430"
+  },
+  {
+    "id": "92009ec4-7d6e-4779-9685-d977f8ec029c",
+    "title": "asd",
+    "author": "asd",
+    "teaser": "<p>ads</p>",
+    "content": "<p>ad</p>",
+    "image": "92009ec4-7d6e-4779-9685-d977f8ec029c.png",
+    "createdAt": 1760618457735
+  },
+  {
+    "id": "e3c4aa50-5a47-4dad-8c90-d78b91301604",
+    "title": "Test1",
+    "author": "Array",
+    "teaser": "<p>asd</p>",
+    "content": "<p>asd</p>",
+    "image": "e3c4aa50-5a47-4dad-8c90-d78b91301604.jpg",
+    "createdAt": 1760618545337
+  },
+  {
+    "id": "cc100338-51b0-496d-b5da-b9e3a8cf1a5c",
+    "title": "aada",
+    "author": "asdas",
+    "teaser": "<p>asda</p>",
+    "content": "<p>asd</p>",
+    "image": "cc100338-51b0-496d-b5da-b9e3a8cf1a5c.jpg",
+    "createdAt": 1760618679792
   }
 ]

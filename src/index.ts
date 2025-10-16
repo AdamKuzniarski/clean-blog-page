@@ -6,7 +6,7 @@ import nunjucks from "nunjucks";
 import entryData from "./data/entries.json";
 import publicRoutes from "./routes/publicRoutes";
 import adminRoutes from "./routes/adminRoutes";
-
+import * as path from "node:path"
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true })); // für form-urlencoded (HTML forms)
 app.use(express.json()); // für JSON body
-
+app.use("/uploads", express.static(path.join(__dirname, "public/assets/img")));
 
 const nunEnv = nunjucks.configure("src/views", {
   autoescape: true,

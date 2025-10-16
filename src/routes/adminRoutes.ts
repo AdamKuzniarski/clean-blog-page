@@ -5,6 +5,7 @@ import updatePageController from "../controllers/admin/updatePageController"
 import updateController from "../controllers/admin/updateController"
 import createPageController from "../controllers/admin/createPageController"
 import createController from "../controllers/admin/createController"
+import { upload } from "../multerConfig";
 const router = express.Router();
 
 router
@@ -13,6 +14,6 @@ router
   .get("/update/:id", updatePageController)
   .post("/update/:id", updateController)
   .get("/create", createPageController)
-  .post("/create", createController)
+  .post("/create",upload.single("imageFile"),  createController)
 
 export default router;

@@ -23,7 +23,8 @@ export async function getBlogEntries(): Promise<BlogEntries> {
 export async function createEntry(data: BlogEntry): Promise<boolean> {
   try {
     const oldEntries = await getBlogEntries();
-    data.id = randomUUID();
+    if(!data.id){
+    data.id = randomUUID();}
     if (!data.createdAt) {
     data.createdAt = Math.floor(Date.now() / 1000);
     }
@@ -60,9 +61,9 @@ export async function updateEntry(data: BlogEntry): Promise<boolean> {
 
 export async function deleteEntry(id: string): Promise<boolean> {
   try {
-    console.log("Trying to delete blog entry: " + id)
+ 
     const allBlogEntries = await getBlogEntries();
-    console.log(allBlogEntries);
+  
     const index = allBlogEntries.findIndex((item) => item.id === id);
     if (index === -1) {
       throw new Error(`Warnung! Kein Eintrag mit der id ${id} gefunden!`);
