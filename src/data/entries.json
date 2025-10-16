@@ -40,9 +40,9 @@
     "title": "User Experience (UX): A Practical Field Guide",
     "image": "user-experience-ux.png",
     "author": "Peter Parker",
-    "createdAt": 1737244800,
-    "teaser": "A quick, no-fluff guide to User Experience (UX) with examples you can copy-paste.",
-    "content": "User Experience (UX) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+    "createdAt": "1737244800",
+    "teaser": "<p>A quick, no-fluff guide to User Experience (UX) with examples you can copy-pasaate.</p>",
+    "content": "<p>User Experience (UX) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites.</p>"
   },
   {
     "id": "7",

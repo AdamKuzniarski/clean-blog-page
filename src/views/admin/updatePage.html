@@ -125,11 +125,10 @@
         ]
       }
     });
-
-    // 🟢 Initialen Inhalt richtig setzen
-    quillTeaser.root.innerHTML = document.getElementById('teaserEditor').innerHTML;
-    quillContent.root.innerHTML = document.getElementById('editor').innerHTML;
-
+      // 🟢 Initialen Inhalt richtig setzen (Prefill)
+      quillTeaser.clipboard.dangerouslyPasteHTML(`{{ entry.teaser | safe }}`);
+      quillContent.clipboard.dangerouslyPasteHTML(`{{ entry.content | safe }}`);
+      
     // 🟢 Beim Abschicken beide Werte übertragen
     document.getElementById('updateForm').addEventListener('submit', () => {
       document.getElementById('hiddenTeaserContent').value = quillTeaser.root.innerHTML;
