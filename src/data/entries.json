@@ -1,38 +1,901 @@
 [
   {
-    "id": 1,
-    "title": "Black: The Absence, Not the Presence, of Color",
-    "image": "justus.png",
-    "author": "Peter Parker",
-    "createdAt": 1743120000,
-    "teaser": "Scientifically, black is not a color but rather the absence of all colors, occurring when an object absorbs nearly all light wavelengths instead of reflecting them.",
-    "content": "When you think about the rainbow, you see a vibrant spectrum of hues: red, orange, yellow, green, blue, indigo, violet. But where's black? And why isn't it typically included in our discussions of light and color in the same way as, say, blue or green?The simple answer, from a scientific perspective, is that black is the absence of color.  Think about how we perceive color. Objects have color because they reflect certain wavelengths of light and absorb others. A red apple, for example, appears red because it reflects red light and absorbs most of the other colors in the visible spectrum. White, on the other hand, is what we see when an object reflects all wavelengths of light.  Black is the opposite. When an object appears black, it's because it's absorbing nearly all of the wavelengths of light that hit it. Very little, if any, light is being reflected back to our eyes. Without reflected light, there's no color for our eyes to perceive.  This concept becomes even clearer when we talk about light itself. A prism splits white light into its constituent colors. But you can't split black light into colors, because there is no black light in the same way there is white light. In a dark room, where there is no light, everything appears black.  Of course, in the world of art and pigments, we often talk about &quot;black paint&quot; and mix colors to create black. In this context, black is indeed a pigment. However, even then, black pigments work by absorbing most of the light that hits them, effectively removing color from what we see.  So, while black is undeniably powerful, chic, and fundamental in both our everyday lives and artistic expression, scientifically speaking, it's not a color in the same way red or blue are. It's the ultimate absorber, the beautiful void that makes other colors pop, and the profound absence that allows light to define everything else."
+    "id": "1",
+    "title": "Julia, White &amp;; The Julia: What Counts as Julia?",
+    "image": "color-theory.png",
+    "author": "Julia",
+    "createdAt": "1735948800",
+    "teaser": "<p><br /></p><p><br /></p><p>sbdab!AS</p>",
+    "content": "<p><br /></p><p><br /></p><p>asad</p>"
   },
   {
-    "id": 2,
-    "title": "Flowers: Nature's Muse for Design",
-    "image": "julia.png",
+    "id": "2",
+    "title": "Typography: A Practical Field Guide",
+    "image": "typography.png",
     "author": "Peter Parker",
-    "createdAt": 1745452800,
-    "teaser": "Flowers endlessly inspire diverse design fields, from fashion to architecture, with their colors, patterns, forms, and functional structures, reminding us that nature is the ultimate muse for creativity.",
-    "content": "Flowers, with their riot of colors, intricate patterns, and graceful forms, are more than just botanical beauties; they are an endless wellspring of inspiration for designers across various fields. From fashion to architecture, and graphic design to interior decor, the influence of flora is evident everywhere.  Think about the delicate pleats of a rose petal inspiring the draping of a gown, or the vibrant color combinations of a tropical bloom dictating a bold new palette for a living room. The organic lines of a winding vine can inform the flow of a logo, while the symmetrical perfection of a sunflower's seeds might spark ideas for a repeating pattern.  Beyond just aesthetics, flowers also offer lessons in functionality and adaptability. Their structures are often optimized for survival and reproduction, showcasing ingenious engineering that can inspire biomimicry in design&mdash;creating solutions by emulating nature's designs and processes.The ephemeral nature of flowers, their bloom and fade, can even influence design philosophies, encouraging the creation of pieces that celebrate transient beauty or evoke a sense of fleeting moments.  Ultimately, flowers remind us that the most profound and beautiful designs often come from the natural world. They encourage us to observe, appreciate, and translate their inherent artistry into our own creative endeavors, ensuring that their timeless charm continues to blossom in countless forms of human design."
+    "createdAt": 1736208000,
+    "teaser": "Typography in plain words, with practical takeaways you can ship today.",
+    "content": "<p><br /></p><p><br /></p><p><strong>ada</strong></p>"
   },
   {
-    "id": 3,
-    "title": "UDesign's Harmony: Core Purpose and Supporting Details",
-    "image": "Array.png",
+    "id": "3",
+    "title": "DOM Manipulation: The Legend of Dominik (Yes, Again)",
+    "image": "dom-manipulation.png",
     "author": "Peter Parker",
-    "createdAt": 1748736000,
-    "teaser": "Discover how distinguishing between the major core and minor supporting details in design creates a harmonious and impactful final product.",
-    "content": "In the world of design, you'll often hear about &quot;major&quot; and &quot;minor.&quot; These aren't just academic terms; they're a simple way to understand what's most important in a design and what helps it truly shine.The major focus in design is the absolute core. It's the central problem you're solving, the main message you're conveying, or the primary function a product needs to perform. If you're creating a new brand identity, the major is designing that iconic logo that will represent the entire company. For a website, the major might be ensuring users can easily achieve their main goal, like buying a product or finding information. This is where the bulk of the creative energy and strategic thinking resides. It's the reason the design project exists.  Then there are the minor elements. These are all the crucial details that support, enhance, and complement the major focus. They're essential for a complete and polished design, but they don't carry the primary weight of the project's overall purpose. Continuing our examples, for that new brand identity, the minor elements would include the specific typography chosen for marketing materials, the subtle color palette used across different applications, or the style of accompanying imagery. For the website, the minor considerations could be the precise spacing between elements, the micro-interactions when a user hovers over a button, or the tone of voice in the help text. These details refine the user experience and contribute to the overall aesthetic without being the central function themselves.  The true art of design lies in the harmonious interplay between the major and minor. A brilliant core idea needs well-executed supporting details to be fully realized and impactful. Conversely, even the most exquisite minor flourishes can't rescue a design if its major purpose isn't clear or effective. Understanding this distinction allows designers to prioritize their efforts, ensuring that every element serves its intended role in creating a cohesive and successful outcome. It's about finding that perfect balance where every piece contributes to the overall symphony of the design."
+    "createdAt": 1736467200,
+    "teaser": "Why DOM Manipulation matters and how to use it without breaking production.",
+    "content": "DOM Manipulation in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
   },
   {
-    "id": 4,
-    "title": "DOM Manipulation: The Legend of Dominik",
-    "image": "Array.png",
+    "id": "4",
+    "title": "React Components: A Practical Field Guide",
+    "image": "react-components.png",
     "author": "Peter Parker",
-    "createdAt": 1748736000,
-    "teaser": "How nice is to have DOM Manipulations",
-    "content": "So next time you hear someone talking about DOM manipulation, remember,it’s not just JavaScript magic — it’s Dominik in action."
+    "createdAt": 1736726400,
+    "teaser": "A quick, no-fluff guide to React Components with examples you can copy-paste.",
+    "content": "React Components in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "6",
+    "title": "User Experience (UX): A Practical Field Guide",
+    "image": "user-experience-ux.png",
+    "author": "Peter Parker",
+    "createdAt": 1737244800,
+    "teaser": "A quick, no-fluff guide to User Experience (UX) with examples you can copy-paste.",
+    "content": "User Experience (UX) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "7",
+    "title": "Accessibility (A11y): A Practical Field Guide",
+    "image": "accessibility-a11y.png",
+    "author": "Peter Parker",
+    "createdAt": 1737504000,
+    "teaser": "Accessibility (A11y) in plain words, with practical takeaways you can ship today.",
+    "content": "Accessibility (A11y) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "8",
+    "title": "Web Performance: A Practical Field Guide",
+    "image": "web-performance.png",
+    "author": "Peter Parker",
+    "createdAt": 1737763200,
+    "teaser": "Key concepts of Web Performance, plus the gotchas teams learn the hard way.",
+    "content": "Web Performance in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "9",
+    "title": "Network Latency: A Practical Field Guide",
+    "image": "network-latency.png",
+    "author": "Peter Parker",
+    "createdAt": 1738022400,
+    "teaser": "Network Latency in plain words, with practical takeaways you can ship today.",
+    "content": "Network Latency in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "10",
+    "title": "Sorting Algorithms: A Practical Field Guide",
+    "image": "sorting-algorithms.png",
+    "author": "Peter Parker",
+    "createdAt": 1738281600,
+    "teaser": "Key concepts of Sorting Algorithms, plus the gotchas teams learn the hard way.",
+    "content": "Sorting Algorithms in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "11",
+    "title": "Quantum Curiosity: A Practical Field Guide",
+    "image": "quantum-curiosity.png",
+    "author": "Peter Parker",
+    "createdAt": 1738540800,
+    "teaser": "Quantum Curiosity explained like a teammate in code review—kind, direct, specific.",
+    "content": "Quantum Curiosity in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "12",
+    "title": "Number Theory: A Practical Field Guide",
+    "image": "number-theory.png",
+    "author": "Peter Parker",
+    "createdAt": 1738800000,
+    "teaser": "Number Theory in plain words, with practical takeaways you can ship today.",
+    "content": "Number Theory in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "13",
+    "title": "Stoic Philosophy: A Practical Field Guide",
+    "image": "stoic-philosophy.png",
+    "author": "Peter Parker",
+    "createdAt": 1739059200,
+    "teaser": "Stoic Philosophy in plain words, with practical takeaways you can ship today.",
+    "content": "Stoic Philosophy in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "14",
+    "title": "Psychology of Color: A Practical Field Guide",
+    "image": "psychology-of-color.png",
+    "author": "Peter Parker",
+    "createdAt": 1739318400,
+    "teaser": "Psychology of Color in plain words, with practical takeaways you can ship today.",
+    "content": "Psychology of Color in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "15",
+    "title": "Bauhaus Design: A Practical Field Guide",
+    "image": "bauhaus-design.png",
+    "author": "Peter Parker",
+    "createdAt": 1739577600,
+    "teaser": "A quick, no-fluff guide to Bauhaus Design with examples you can copy-paste.",
+    "content": "Bauhaus Design in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "16",
+    "title": "AI + Frontend: A Practical Field Guide",
+    "image": "ai-plus-frontend.png",
+    "author": "Peter Parker",
+    "createdAt": 1739836800,
+    "teaser": "A quick, no-fluff guide to AI + Frontend with examples you can copy-paste.",
+    "content": "AI + Frontend in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "17",
+    "title": "Unit Testing: A Practical Field Guide",
+    "image": "unit-testing.png",
+    "author": "Peter Parker",
+    "createdAt": 1740096000,
+    "teaser": "Key concepts of Unit Testing, plus the gotchas teams learn the hard way.",
+    "content": "Unit Testing in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "18",
+    "title": "Developer Tooling: A Practical Field Guide",
+    "image": "developer-tooling.png",
+    "author": "Peter Parker",
+    "createdAt": 1740355200,
+    "teaser": "Key concepts of Developer Tooling, plus the gotchas teams learn the hard way.",
+    "content": "Developer Tooling in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "19",
+    "title": "Web APIs: A Practical Field Guide",
+    "image": "web-apis.png",
+    "author": "Peter Parker",
+    "createdAt": 1740614400,
+    "teaser": "Web APIs in plain words, with practical takeaways you can ship today.",
+    "content": "Web APIs in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "20",
+    "title": "CSS Animation: A Practical Field Guide",
+    "image": "css-animation.png",
+    "author": "Peter Parker",
+    "createdAt": 1740873600,
+    "teaser": "Key concepts of CSS Animation, plus the gotchas teams learn the hard way.",
+    "content": "CSS Animation in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "21",
+    "title": "State Management: A Practical Field Guide",
+    "image": "state-management.png",
+    "author": "Peter Parker",
+    "createdAt": 1741132800,
+    "teaser": "A quick, no-fluff guide to State Management with examples you can copy-paste.",
+    "content": "State Management in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "22",
+    "title": "Web Security: A Practical Field Guide",
+    "image": "web-security.png",
+    "author": "Peter Parker",
+    "createdAt": 1741392000,
+    "teaser": "Key concepts of Web Security, plus the gotchas teams learn the hard way.",
+    "content": "Web Security in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "23",
+    "title": "Data Visualization: A Practical Field Guide",
+    "image": "data-visualization.png",
+    "author": "Peter Parker",
+    "createdAt": 1741651200,
+    "teaser": "Data Visualization explained like a teammate in code review—kind, direct, specific.",
+    "content": "Data Visualization in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "24",
+    "title": "Semantic HTML: A Practical Field Guide",
+    "image": "semantic-html.png",
+    "author": "Peter Parker",
+    "createdAt": 1741910400,
+    "teaser": "A quick, no-fluff guide to Semantic HTML with examples you can copy-paste.",
+    "content": "Semantic HTML in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "25",
+    "title": "Design Systems: A Practical Field Guide",
+    "image": "design-systems.png",
+    "author": "Peter Parker",
+    "createdAt": 1742169600,
+    "teaser": "Design Systems explained like a teammate in code review—kind, direct, specific.",
+    "content": "Design Systems in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "26",
+    "title": "Microinteractions: A Practical Field Guide",
+    "image": "microinteractions.png",
+    "author": "Peter Parker",
+    "createdAt": 1742428800,
+    "teaser": "Key concepts of Microinteractions, plus the gotchas teams learn the hard way.",
+    "content": "Microinteractions in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "27",
+    "title": "Dark Mode: A Practical Field Guide",
+    "image": "dark-mode.png",
+    "author": "Peter Parker",
+    "createdAt": 1742688000,
+    "teaser": "Why Dark Mode matters and how to use it without breaking production.",
+    "content": "Dark Mode in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "28",
+    "title": "Light Theme: A Practical Field Guide",
+    "image": "light-theme.png",
+    "author": "Peter Parker",
+    "createdAt": 1742947200,
+    "teaser": "Light Theme in plain words, with practical takeaways you can ship today.",
+    "content": "Light Theme in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "29",
+    "title": "Git Workflows: A Practical Field Guide",
+    "image": "git-workflows.png",
+    "author": "Peter Parker",
+    "createdAt": 1743206400,
+    "teaser": "A quick, no-fluff guide to Git Workflows with examples you can copy-paste.",
+    "content": "Git Workflows in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "30",
+    "title": "CI Basics: A Practical Field Guide",
+    "image": "ci-basics.png",
+    "author": "Peter Parker",
+    "createdAt": 1743465600,
+    "teaser": "CI Basics explained like a teammate in code review—kind, direct, specific.",
+    "content": "CI Basics in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "31",
+    "title": "Web Standards: A Practical Field Guide",
+    "image": "web-standards.png",
+    "author": "Peter Parker",
+    "createdAt": 1743724800,
+    "teaser": "Why Web Standards matters and how to use it without breaking production.",
+    "content": "Web Standards in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "32",
+    "title": "Regular Expressions: A Practical Field Guide",
+    "image": "regular-expressions.png",
+    "author": "Peter Parker",
+    "createdAt": 1743984000,
+    "teaser": "Why Regular Expressions matters and how to use it without breaking production.",
+    "content": "Regular Expressions in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "33",
+    "title": "Unicode & Emojis: A Practical Field Guide",
+    "image": "unicode-and-emojis.png",
+    "author": "Peter Parker",
+    "createdAt": 1744243200,
+    "teaser": "A quick, no-fluff guide to Unicode & Emojis with examples you can copy-paste.",
+    "content": "Unicode & Emojis in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "34",
+    "title": "Internationalization (i18n): A Practical Field Guide",
+    "image": "internationalization-i18n.png",
+    "author": "Peter Parker",
+    "createdAt": 1744502400,
+    "teaser": "A quick, no-fluff guide to Internationalization (i18n) with examples you can copy-paste.",
+    "content": "Internationalization (i18n) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "35",
+    "title": "Time Zones: A Practical Field Guide",
+    "image": "time-zones.png",
+    "author": "Peter Parker",
+    "createdAt": 1744761600,
+    "teaser": "Why Time Zones matters and how to use it without breaking production.",
+    "content": "Time Zones in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "36",
+    "title": "WebAssembly: A Practical Field Guide",
+    "image": "webassembly.png",
+    "author": "Peter Parker",
+    "createdAt": 1745020800,
+    "teaser": "WebAssembly in plain words, with practical takeaways you can ship today.",
+    "content": "WebAssembly in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "37",
+    "title": "TypeScript: A Practical Field Guide",
+    "image": "typescript.png",
+    "author": "Peter Parker",
+    "createdAt": 1745280000,
+    "teaser": "TypeScript in plain words, with practical takeaways you can ship today.",
+    "content": "TypeScript in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "38",
+    "title": "Functional Programming: A Practical Field Guide",
+    "image": "functional-programming.png",
+    "author": "Peter Parker",
+    "createdAt": 1745539200,
+    "teaser": "Functional Programming explained like a teammate in code review—kind, direct, specific.",
+    "content": "Functional Programming in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "39",
+    "title": "JavaScript Event Loop: A Practical Field Guide",
+    "image": "javascript-event-loop.png",
+    "author": "Peter Parker",
+    "createdAt": 1745798400,
+    "teaser": "JavaScript Event Loop in plain words, with practical takeaways you can ship today.",
+    "content": "JavaScript Event Loop in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "40",
+    "title": "Promises & Async/Await: A Practical Field Guide",
+    "image": "promises-and-async-await.png",
+    "author": "Peter Parker",
+    "createdAt": 1746057600,
+    "teaser": "Why Promises & Async/Await matters and how to use it without breaking production.",
+    "content": "Promises & Async/Await in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "41",
+    "title": "Web Components: A Practical Field Guide",
+    "image": "web-components.png",
+    "author": "Peter Parker",
+    "createdAt": 1746316800,
+    "teaser": "Why Web Components matters and how to use it without breaking production.",
+    "content": "Web Components in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "42",
+    "title": "HTML Canvas: A Practical Field Guide",
+    "image": "html-canvas.png",
+    "author": "Peter Parker",
+    "createdAt": 1746576000,
+    "teaser": "Key concepts of HTML Canvas, plus the gotchas teams learn the hard way.",
+    "content": "HTML Canvas in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "43",
+    "title": "SVG Essentials: A Practical Field Guide",
+    "image": "svg-essentials.png",
+    "author": "Peter Parker",
+    "createdAt": 1746835200,
+    "teaser": "Why SVG Essentials matters and how to use it without breaking production.",
+    "content": "SVG Essentials in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "44",
+    "title": "Service Workers: A Practical Field Guide",
+    "image": "service-workers.png",
+    "author": "Peter Parker",
+    "createdAt": 1747094400,
+    "teaser": "Service Workers in plain words, with practical takeaways you can ship today.",
+    "content": "Service Workers in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "45",
+    "title": "Progressive Web Apps (PWA): A Practical Field Guide",
+    "image": "progressive-web-apps-pwa.png",
+    "author": "Peter Parker",
+    "createdAt": 1747353600,
+    "teaser": "Progressive Web Apps (PWA) explained like a teammate in code review—kind, direct, specific.",
+    "content": "Progressive Web Apps (PWA) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "46",
+    "title": "SEO Fundamentals: A Practical Field Guide",
+    "image": "seo-fundamentals.png",
+    "author": "Peter Parker",
+    "createdAt": 1747612800,
+    "teaser": "Key concepts of SEO Fundamentals, plus the gotchas teams learn the hard way.",
+    "content": "SEO Fundamentals in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "47",
+    "title": "Edge Rendering: A Practical Field Guide",
+    "image": "edge-rendering.png",
+    "author": "Peter Parker",
+    "createdAt": 1747872000,
+    "teaser": "Edge Rendering in plain words, with practical takeaways you can ship today.",
+    "content": "Edge Rendering in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "48",
+    "title": "JS Bundlers: A Practical Field Guide",
+    "image": "js-bundlers.png",
+    "author": "Peter Parker",
+    "createdAt": 1748131200,
+    "teaser": "JS Bundlers explained like a teammate in code review—kind, direct, specific.",
+    "content": "JS Bundlers in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "49",
+    "title": "Monorepos: A Practical Field Guide",
+    "image": "monorepos.png",
+    "author": "Peter Parker",
+    "createdAt": 1748390400,
+    "teaser": "Monorepos in plain words, with practical takeaways you can ship today.",
+    "content": "Monorepos in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "50",
+    "title": "Design Tokens: A Practical Field Guide",
+    "image": "design-tokens.png",
+    "author": "Peter Parker",
+    "createdAt": 1748649600,
+    "teaser": "Key concepts of Design Tokens, plus the gotchas teams learn the hard way.",
+    "content": "Design Tokens in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "51",
+    "title": "WAI-ARIA: A Practical Field Guide",
+    "image": "wai-aria.png",
+    "author": "Peter Parker",
+    "createdAt": 1748908800,
+    "teaser": "Why WAI-ARIA matters and how to use it without breaking production.",
+    "content": "WAI-ARIA in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "52",
+    "title": "Lighthouse Audits: A Practical Field Guide",
+    "image": "lighthouse-audits.png",
+    "author": "Peter Parker",
+    "createdAt": 1749168000,
+    "teaser": "Key concepts of Lighthouse Audits, plus the gotchas teams learn the hard way.",
+    "content": "Lighthouse Audits in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "53",
+    "title": "Responsive Design: A Practical Field Guide",
+    "image": "responsive-design.png",
+    "author": "Peter Parker",
+    "createdAt": 1749427200,
+    "teaser": "Why Responsive Design matters and how to use it without breaking production.",
+    "content": "Responsive Design in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "54",
+    "title": "CSS Grid: A Practical Field Guide",
+    "image": "css-grid.png",
+    "author": "Peter Parker",
+    "createdAt": 1749686400,
+    "teaser": "Key concepts of CSS Grid, plus the gotchas teams learn the hard way.",
+    "content": "CSS Grid in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "55",
+    "title": "Flexbox: A Practical Field Guide",
+    "image": "flexbox.png",
+    "author": "Peter Parker",
+    "createdAt": 1749945600,
+    "teaser": "A quick, no-fluff guide to Flexbox with examples you can copy-paste.",
+    "content": "Flexbox in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "56",
+    "title": "Shadows & Elevation: A Practical Field Guide",
+    "image": "shadows-and-elevation.png",
+    "author": "Peter Parker",
+    "createdAt": 1750204800,
+    "teaser": "Shadows & Elevation in plain words, with practical takeaways you can ship today.",
+    "content": "Shadows & Elevation in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "57",
+    "title": "Color Spaces (sRGB, P3): A Practical Field Guide",
+    "image": "color-spaces-srgb-p3.png",
+    "author": "Peter Parker",
+    "createdAt": 1750464000,
+    "teaser": "Color Spaces (sRGB, P3) in plain words, with practical takeaways you can ship today.",
+    "content": "Color Spaces (sRGB, P3) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "58",
+    "title": "HDR on the Web: A Practical Field Guide",
+    "image": "hdr-on-the-web.png",
+    "author": "Peter Parker",
+    "createdAt": 1750723200,
+    "teaser": "A quick, no-fluff guide to HDR on the Web with examples you can copy-paste.",
+    "content": "HDR on the Web in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "59",
+    "title": "WebGL & 3D: A Practical Field Guide",
+    "image": "webgl-and-3d.png",
+    "author": "Peter Parker",
+    "createdAt": 1750982400,
+    "teaser": "Why WebGL & 3D matters and how to use it without breaking production.",
+    "content": "WebGL & 3D in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "60",
+    "title": "Motion Guidelines: A Practical Field Guide",
+    "image": "motion-guidelines.png",
+    "author": "Peter Parker",
+    "createdAt": 1751241600,
+    "teaser": "Motion Guidelines in plain words, with practical takeaways you can ship today.",
+    "content": "Motion Guidelines in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "61",
+    "title": "Microcopy: A Practical Field Guide",
+    "image": "microcopy.png",
+    "author": "Peter Parker",
+    "createdAt": 1751500800,
+    "teaser": "A quick, no-fluff guide to Microcopy with examples you can copy-paste.",
+    "content": "Microcopy in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "62",
+    "title": "Web Forms UX: A Practical Field Guide",
+    "image": "web-forms-ux.png",
+    "author": "Peter Parker",
+    "createdAt": 1751760000,
+    "teaser": "Web Forms UX in plain words, with practical takeaways you can ship today.",
+    "content": "Web Forms UX in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "63",
+    "title": "Form Validation: A Practical Field Guide",
+    "image": "form-validation.png",
+    "author": "Peter Parker",
+    "createdAt": 1752019200,
+    "teaser": "Form Validation explained like a teammate in code review—kind, direct, specific.",
+    "content": "Form Validation in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "64",
+    "title": "Error States: A Practical Field Guide",
+    "image": "error-states.png",
+    "author": "Peter Parker",
+    "createdAt": 1752278400,
+    "teaser": "Why Error States matters and how to use it without breaking production.",
+    "content": "Error States in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "65",
+    "title": "Skeleton Screens: A Practical Field Guide",
+    "image": "skeleton-screens.png",
+    "author": "Peter Parker",
+    "createdAt": 1752537600,
+    "teaser": "Skeleton Screens explained like a teammate in code review—kind, direct, specific.",
+    "content": "Skeleton Screens in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "66",
+    "title": "Progressive Enhancement: A Practical Field Guide",
+    "image": "progressive-enhancement.png",
+    "author": "Peter Parker",
+    "createdAt": 1752796800,
+    "teaser": "Why Progressive Enhancement matters and how to use it without breaking production.",
+    "content": "Progressive Enhancement in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "67",
+    "title": "Graceful Degradation: A Practical Field Guide",
+    "image": "graceful-degradation.png",
+    "author": "Peter Parker",
+    "createdAt": 1753056000,
+    "teaser": "A quick, no-fluff guide to Graceful Degradation with examples you can copy-paste.",
+    "content": "Graceful Degradation in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "68",
+    "title": "Browser Quirks: A Practical Field Guide",
+    "image": "browser-quirks.png",
+    "author": "Peter Parker",
+    "createdAt": 1753315200,
+    "teaser": "Why Browser Quirks matters and how to use it without breaking production.",
+    "content": "Browser Quirks in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "69",
+    "title": "HTTP Caching: A Practical Field Guide",
+    "image": "http-caching.png",
+    "author": "Peter Parker",
+    "createdAt": 1753574400,
+    "teaser": "Why HTTP Caching matters and how to use it without breaking production.",
+    "content": "HTTP Caching in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "70",
+    "title": "Content Delivery Networks (CDN): A Practical Field Guide",
+    "image": "content-delivery-networks-cdn.png",
+    "author": "Peter Parker",
+    "createdAt": 1753833600,
+    "teaser": "A quick, no-fluff guide to Content Delivery Networks (CDN) with examples you can copy-paste.",
+    "content": "Content Delivery Networks (CDN) in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "71",
+    "title": "HTTP/2 & HTTP/3: A Practical Field Guide",
+    "image": "http-2-and-http-3.png",
+    "author": "Peter Parker",
+    "createdAt": 1754092800,
+    "teaser": "Why HTTP/2 & HTTP/3 matters and how to use it without breaking production.",
+    "content": "HTTP/2 & HTTP/3 in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "72",
+    "title": "WebSockets: A Practical Field Guide",
+    "image": "websockets.png",
+    "author": "Peter Parker",
+    "createdAt": 1754352000,
+    "teaser": "WebSockets in plain words, with practical takeaways you can ship today.",
+    "content": "WebSockets in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "73",
+    "title": "WebRTC: A Practical Field Guide",
+    "image": "webrtc.png",
+    "author": "Peter Parker",
+    "createdAt": 1754611200,
+    "teaser": "Key concepts of WebRTC, plus the gotchas teams learn the hard way.",
+    "content": "WebRTC in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "74",
+    "title": "Web Workers: A Practical Field Guide",
+    "image": "web-workers.png",
+    "author": "Peter Parker",
+    "createdAt": 1754870400,
+    "teaser": "A quick, no-fluff guide to Web Workers with examples you can copy-paste.",
+    "content": "Web Workers in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "75",
+    "title": "Streams API: A Practical Field Guide",
+    "image": "streams-api.png",
+    "author": "Peter Parker",
+    "createdAt": 1755129600,
+    "teaser": "Key concepts of Streams API, plus the gotchas teams learn the hard way.",
+    "content": "Streams API in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "76",
+    "title": "Clipboard API: A Practical Field Guide",
+    "image": "clipboard-api.png",
+    "author": "Peter Parker",
+    "createdAt": 1755388800,
+    "teaser": "A quick, no-fluff guide to Clipboard API with examples you can copy-paste.",
+    "content": "Clipboard API in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "77",
+    "title": "File System Access: A Practical Field Guide",
+    "image": "file-system-access.png",
+    "author": "Peter Parker",
+    "createdAt": 1755648000,
+    "teaser": "A quick, no-fluff guide to File System Access with examples you can copy-paste.",
+    "content": "File System Access in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "78",
+    "title": "Web Storage: A Practical Field Guide",
+    "image": "web-storage.png",
+    "author": "Peter Parker",
+    "createdAt": 1755907200,
+    "teaser": "Web Storage explained like a teammate in code review—kind, direct, specific.",
+    "content": "Web Storage in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "79",
+    "title": "Cookies: A Practical Field Guide",
+    "image": "cookies.png",
+    "author": "Peter Parker",
+    "createdAt": 1756166400,
+    "teaser": "Cookies explained like a teammate in code review—kind, direct, specific.",
+    "content": "Cookies in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "80",
+    "title": "Privacy & Consent: A Practical Field Guide",
+    "image": "privacy-and-consent.png",
+    "author": "Peter Parker",
+    "createdAt": 1756425600,
+    "teaser": "Why Privacy & Consent matters and how to use it without breaking production.",
+    "content": "Privacy & Consent in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "81",
+    "title": "Analytics, Carefully: A Practical Field Guide",
+    "image": "analytics-carefully.png",
+    "author": "Peter Parker",
+    "createdAt": 1756684800,
+    "teaser": "Key concepts of Analytics, Carefully, plus the gotchas teams learn the hard way.",
+    "content": "Analytics, Carefully in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "82",
+    "title": "A/B Testing: A Practical Field Guide",
+    "image": "a-b-testing.png",
+    "author": "Peter Parker",
+    "createdAt": 1756944000,
+    "teaser": "A quick, no-fluff guide to A/B Testing with examples you can copy-paste.",
+    "content": "A/B Testing in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "83",
+    "title": "Feature Flags: A Practical Field Guide",
+    "image": "feature-flags.png",
+    "author": "Peter Parker",
+    "createdAt": 1757203200,
+    "teaser": "Why Feature Flags matters and how to use it without breaking production.",
+    "content": "Feature Flags in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "84",
+    "title": "Storybook: A Practical Field Guide",
+    "image": "storybook.png",
+    "author": "Peter Parker",
+    "createdAt": 1757462400,
+    "teaser": "Storybook in plain words, with practical takeaways you can ship today.",
+    "content": "Storybook in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "85",
+    "title": "Figma to Code: A Practical Field Guide",
+    "image": "figma-to-code.png",
+    "author": "Peter Parker",
+    "createdAt": 1757721600,
+    "teaser": "A quick, no-fluff guide to Figma to Code with examples you can copy-paste.",
+    "content": "Figma to Code in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "86",
+    "title": "Design Critique: A Practical Field Guide",
+    "image": "design-critique.png",
+    "author": "Peter Parker",
+    "createdAt": 1757980800,
+    "teaser": "Design Critique in plain words, with practical takeaways you can ship today.",
+    "content": "Design Critique in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "87",
+    "title": "Code Reviews: A Practical Field Guide",
+    "image": "code-reviews.png",
+    "author": "Peter Parker",
+    "createdAt": 1758240000,
+    "teaser": "Why Code Reviews matters and how to use it without breaking production.",
+    "content": "Code Reviews in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "88",
+    "title": "Pair Programming: A Practical Field Guide",
+    "image": "pair-programming.png",
+    "author": "Peter Parker",
+    "createdAt": 1758499200,
+    "teaser": "Pair Programming explained like a teammate in code review—kind, direct, specific.",
+    "content": "Pair Programming in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "89",
+    "title": "Documentation that Lives: A Practical Field Guide",
+    "image": "documentation-that-lives.png",
+    "author": "Peter Parker",
+    "createdAt": 1758758400,
+    "teaser": "Why Documentation that Lives matters and how to use it without breaking production.",
+    "content": "Documentation that Lives in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "90",
+    "title": "Naming Things: A Practical Field Guide",
+    "image": "naming-things.png",
+    "author": "Peter Parker",
+    "createdAt": 1759017600,
+    "teaser": "Naming Things in plain words, with practical takeaways you can ship today.",
+    "content": "Naming Things in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "91",
+    "title": "Refactoring: A Practical Field Guide",
+    "image": "refactoring.png",
+    "author": "Peter Parker",
+    "createdAt": 1759276800,
+    "teaser": "A quick, no-fluff guide to Refactoring with examples you can copy-paste.",
+    "content": "Refactoring in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "92",
+    "title": "Technical Debt: A Practical Field Guide",
+    "image": "technical-debt.png",
+    "author": "Peter Parker",
+    "createdAt": 1759536000,
+    "teaser": "Key concepts of Technical Debt, plus the gotchas teams learn the hard way.",
+    "content": "Technical Debt in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "93",
+    "title": "Roadmapping: A Practical Field Guide",
+    "image": "roadmapping.png",
+    "author": "Peter Parker",
+    "createdAt": 1759795200,
+    "teaser": "Why Roadmapping matters and how to use it without breaking production.",
+    "content": "Roadmapping in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "94",
+    "title": "Estimation: A Practical Field Guide",
+    "image": "estimation.png",
+    "author": "Peter Parker",
+    "createdAt": 1760054400,
+    "teaser": "A quick, no-fluff guide to Estimation with examples you can copy-paste.",
+    "content": "Estimation in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "95",
+    "title": "Product Thinking: A Practical Field Guide",
+    "image": "product-thinking.png",
+    "author": "Peter Parker",
+    "createdAt": 1760313600,
+    "teaser": "Product Thinking explained like a teammate in code review—kind, direct, specific.",
+    "content": "<p><br /></p><p><br /></p><h1>asd</h1>"
+  },
+  {
+    "id": "96",
+    "title": "Ethical Tech: A Practical Field Guide",
+    "image": "ethical-tech.png",
+    "author": "Peter Parker",
+    "createdAt": 1760572800,
+    "teaser": "Ethical Tech explained like a teammate in code review—kind, direct, specific.",
+    "content": "Ethical Tech in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "97",
+    "title": "Sustainable Web: A Practical Field Guide",
+    "image": "sustainable-web.png",
+    "author": "Peter Parker",
+    "createdAt": 1760832000,
+    "teaser": "Sustainable Web explained like a teammate in code review—kind, direct, specific.",
+    "content": "Sustainable Web in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "98",
+    "title": "Energy Footprint: A Practical Field Guide",
+    "image": "energy-footprint.png",
+    "author": "Peter Parker",
+    "createdAt": 1761091200,
+    "teaser": "A quick, no-fluff guide to Energy Footprint with examples you can copy-paste.",
+    "content": "Energy Footprint in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "99",
+    "title": "Open Source: A Practical Field Guide",
+    "image": "open-source.png",
+    "author": "Peter Parker",
+    "createdAt": 1761350400,
+    "teaser": "Why Open Source matters and how to use it without breaking production.",
+    "content": "Open Source in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "id": "100",
+    "title": "Software Licenses: A Practical Field Guide",
+    "image": "software-licenses.png",
+    "author": "Peter Parker",
+    "createdAt": 1761609600,
+    "teaser": "A quick, no-fluff guide to Software Licenses with examples you can copy-paste.",
+    "content": "Software Licenses in practice balances theory with defaults browsers already get right. Start by naming the constraints: inputs, invariants, and the real outcome you need. Choose the simplest approach that satisfies those constraints—simplicity ages well. Avoid premature abstraction; small, well-named functions beat clever indirection. Measure before you optimize, and lock the behavior with a tiny, focused test. Document intent in the code—clear naming is documentation you can't forget to update. When bugs appear, craft a minimal reproduction and bisect changes to isolate the cause. Ship in small, reversible slices; feedback early protects you from heroic rewrites."
+  },
+  {
+    "title": "What about Julia?",
+    "image": "https://images.unsplash.com/photo-1564260670111-18b14e5e0b3e?ixlib=rb-…",
+    "author": "Julia",
+    "content": "asdasd",
+    "id": "7e169f92-15d1-4c97-8e6a-b8854784fcf1",
+    "createdAt": 1760604852
   }
 ]

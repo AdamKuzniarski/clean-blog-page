@@ -90,12 +90,12 @@
           <!-- Post preview-->
           {%for item in entryData%}
           <div class="post-preview">
-            <a href="post/{{item.createdAt}}"
-              ><h2 class="post-title">{{item.title}}</h2></a
+            <a href="post/{{item.id}}"
+              ><h2 class="post-title">{{item.title | safe}}</h2></a
             >
-            <h3 class="post-subtitle">{{item.teaser}}</h3>
+            <h3 class="post-subtitle">{{item.teaser | safe}}</h3>
             <p class="post-meta">
-              {{item.author}}
+              {{item.author | safe}}
               <a href="#!">Start Bootstrap</a>
               {{item.createdAt | formatDate }}
             </p>

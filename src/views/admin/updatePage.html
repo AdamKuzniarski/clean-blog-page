@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog Editor</title>
+
+  <!-- Quill CDN -->
+  <link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet" />
+  <script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
+
+  <style>
+    #editor, #teaserEditor {
+      height: 300px;
+      background: #fff;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Update {{ entry.title | safe }}</h1>
+
+  <form id="updateForm" action="/admin/update/{{ entry.id }}" method="POST">
+    <label for="title">Titel</label>
+    <input type="text" name="title" value="{{ entry.title | safe }}" required />
+
+    <label for="image">Bild-URL</label>
+    <input type="text" id="image" name="image" value="{{ entry.image | safe }}" />
+
+    <label for="author">Autor</label>
+    <input type="text" id="author" name="author" value="{{ entry.author | safe }}" required />
+
+    <label for="createdAt">Erstellt am (Timestamp)</label>
+    <input type="number" id="createdAt" name="createdAt" value="{{ entry.createdAt }}" readonly />
+
+    <!-- TEASER -->
+    <label for="teaser">Teaser</label>
+    <div id="teaserEditor">{{ entry.teaser | safe }}</div>
+    <input type="hidden" name="teaser" id="hiddenTeaserContent" />
+
+    <!-- CONTENT -->
+    <label for="content">Inhalt</label>
+    <div id="editor">{{ entry.content | safe }}</div>
+    <input type="hidden" name="content" id="hiddenBlogContent" />
+
+    <button type="submit">Speichern</button>
+  </form>
+
+  <script>
+    // 🟢 Quill-Instanzen separat
+    const quillTeaser = new Quill('#teaserEditor', {
+      theme: 'snow',
+      placeholder: 'Hier den Teaser schreiben...',
+      modules: {
+        toolbar: [
+          [{ header: [1, 2, 3, false] }],
+          ['bold', 'italic', 'underline'],
+          ['link', 'blockquote', 'code-block'],
+          [{ list: 'ordered' }, { list: 'bullet' }],
+          ['clean']
+        ]
+      }
+    });
+
+    const quillContent = new Quill('#editor', {
+      theme: 'snow',
+      placeholder: 'Hier den Blog-Text schreiben...',
+      modules: {
+        toolbar: [
+          [{ header: [1, 2, 3, false] }],
+          ['bold', 'italic', 'underline'],
+          ['link', 'blockquote', 'code-block'],
+          [{ list: 'ordered' }, { list: 'bullet' }],
+          ['clean']
+        ]
+      }
+    });
+
+    // 🟢 Initialen Inhalt richtig setzen
+    quillTeaser.root.innerHTML = document.getElementById('teaserEditor').innerHTML;
+    quillContent.root.innerHTML = document.getElementById('editor').innerHTML;
+
+    // 🟢 Beim Abschicken beide Werte übertragen
+    document.getElementById('updateForm').addEventListener('submit', () => {
+      document.getElementById('hiddenTeaserContent').value = quillTeaser.root.innerHTML;
+      document.getElementById('hiddenBlogContent').value = quillContent.root.innerHTML;
+    });
+  </script>
+</body>
+</html>

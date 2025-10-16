@@ -24,6 +24,9 @@ export async function createEntry(data: BlogEntry): Promise<boolean> {
   try {
     const oldEntries = await getBlogEntries();
     data.id = randomUUID();
+    if (!data.createdAt) {
+    data.createdAt = Math.floor(Date.now() / 1000);
+    }
     oldEntries.push(data)
     const newJsonData = JSON.stringify(oldEntries, null, 2);
     await createFile(FILE_PATH, newJsonData);
@@ -45,7 +48,7 @@ export async function updateEntry(data: BlogEntry): Promise<boolean> {
     if (index === -1) {
       throw new Error(`Warnung! Kein Eintrag mit der id ${data.id} gefunden!`);
     }
-    allBlogEntries[index] = { ...data };
+    allBlogEntries[index] = {...allBlogEntries[index], ...data };
     const newJsonEntries = JSON.stringify(allBlogEntries, null, 2);
     await createFile(FILE_PATH, newJsonEntries);
     return true;
@@ -57,7 +60,9 @@ export async function updateEntry(data: BlogEntry): Promise<boolean> {
 
 export async function deleteEntry(id: string): Promise<boolean> {
   try {
+    console.log("Trying to delete blog entry: " + id)
     const allBlogEntries = await getBlogEntries();
+    console.log(allBlogEntries);
     const index = allBlogEntries.findIndex((item) => item.id === id);
     if (index === -1) {
       throw new Error(`Warnung! Kein Eintrag mit der id ${id} gefunden!`);

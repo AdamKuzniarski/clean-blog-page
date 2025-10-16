@@ -3,9 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Admin Bereich</title>
   </head>
   <body>
-    <h1>ADMIN JUlia!!</h1>
+    <h1>ADMIN JuliaXX!!</h1>
+    <a href="/admin/create">Write a new blog entry!</a>
+    {% for item in entryData %}
+      <div class="post-preview">
+        <a href="post/{{ item.id }}">
+          <h2 class="post-title">{{ item.title }}</h2>
+        </a>
+        <p class="post-meta">
+          {{ item.author }}
+          <a href="#!">Start Bootstrap</a>
+          {{ item.createdAt | formatDate }}
+        </p>
+        <a href="/admin/update/{{ item.id }}">Update</a>
+        <button type="button"
+          onclick="if (confirm('Soll dieser Eintrag wirklich gelöscht werden?')) { window.location.href = '/admin/delete/{{ item.id }}'; }">
+          delete
+        </button>
+      </div>
+    {% endfor %}
   </body>
 </html>

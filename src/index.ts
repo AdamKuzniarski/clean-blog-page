@@ -7,11 +7,15 @@ import entryData from "./data/entries.json";
 import publicRoutes from "./routes/publicRoutes";
 import adminRoutes from "./routes/adminRoutes";
 
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(cors());
 
 app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true })); // für form-urlencoded (HTML forms)
+app.use(express.json()); // für JSON body
+
 
 const nunEnv = nunjucks.configure("src/views", {
   autoescape: true,
@@ -28,12 +32,12 @@ nunEnv.addFilter("formatDate", function (timestamp: number) {
 
 
 //routing 
-app.use(publicRoutes).use(adminRoutes);
+app.use(publicRoutes).use("/admin", adminRoutes);
 
 //routing dynamik
-app.get("/post/:createdAt", (req: Request, res: Response) => {
-  const postTimestamp = parseInt(req.params.createdAt);
-  const post = entryData.find((entry) => entry.createdAt === postTimestamp);
+app.get("/post/:id", (req: Request, res: Response) => {
+  const id = req.params.id;
+  const post = entryData.find((entry) => entry.id === id);
 
   if (!post) {
     return res.status(404).send("Post not found");
