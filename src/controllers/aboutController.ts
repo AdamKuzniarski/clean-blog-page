@@ -6,7 +6,7 @@ export const aboutController = (req: Request, res: Response) => {
       title: "About Page",
     },
     headerData: {
-      title: "About PageTest",
+      title: "About PageTestXX",
     },
   });
 };
