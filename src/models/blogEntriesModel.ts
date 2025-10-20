@@ -1,15 +1,9 @@
-import { readFile } from "node:fs/promises";
 import * as path from "node:path";
 import type { BlogEntries, BlogEntry } from "../types/models";
 import { randomUUID } from "node:crypto";
 import { createFile } from "../utils/fsCrudOperators";
 import { getDB } from "../db/database";
 const FILE_PATH = path.join(__dirname, "../data/entries.json");
-
-
-
-
-
 
 /* export async function getBlogEntries(): Promise<BlogEntries> {
   console.log("Reading blog entries from:", FILE_PATH);
@@ -27,29 +21,33 @@ const FILE_PATH = path.join(__dirname, "../data/entries.json");
 }
  */
 
-
- export async function getBlogEntries(): Promise<BlogEntries> {
+export async function getBlogEntries(): Promise<BlogEntries> {
   const db = getDB();
   return new Promise((resolve, reject) => {
-db.all<BlogEntry>(`SELECT * FROM blog_entries`,[], (error:Error| null, rowData: BlogEntries)=>{
-  if(error){
-    reject(error);
-  } else {
-    resolve(rowData);
-  }
-})
-  })};
+    db.all<BlogEntry>(
+      `SELECT * FROM blog_entries`,
+      [],
+      (error: Error | null, rowData: BlogEntries) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(rowData);
+        }
+      }
+    );
+  });
+}
 
-
- export async function createEntry(data: BlogEntry): Promise<boolean> {
+export async function createEntry(data: BlogEntry): Promise<boolean> {
   try {
     const oldEntries = await getBlogEntries();
-    if(!data.id){
-    data.id = randomUUID();}
-    if (!data.createdAt) {
-    data.createdAt = Math.floor(Date.now() / 1000);
+    if (!data.id) {
+      data.id = randomUUID();
     }
-    oldEntries.push(data)
+    if (!data.createdAt) {
+      data.createdAt = Math.floor(Date.now() / 1000);
+    }
+    oldEntries.push(data);
     const newJsonData = JSON.stringify(oldEntries, null, 2);
     await createFile(FILE_PATH, newJsonData);
     return true;
@@ -70,7 +68,7 @@ export async function updateEntry(data: BlogEntry): Promise<boolean> {
     if (index === -1) {
       throw new Error(`Warnung! Kein Eintrag mit der id ${data.id} gefunden!`);
     }
-    allBlogEntries[index] = {...allBlogEntries[index], ...data };
+    allBlogEntries[index] = { ...allBlogEntries[index], ...data };
     const newJsonEntries = JSON.stringify(allBlogEntries, null, 2);
     await createFile(FILE_PATH, newJsonEntries);
     return true;
@@ -82,9 +80,8 @@ export async function updateEntry(data: BlogEntry): Promise<boolean> {
 
 export async function deleteEntry(id: string): Promise<boolean> {
   try {
- 
     const allBlogEntries = await getBlogEntries();
-  
+
     const index = allBlogEntries.findIndex((item) => item.id === id);
     if (index === -1) {
       throw new Error(`Warnung! Kein Eintrag mit der id ${id} gefunden!`);
@@ -92,9 +89,8 @@ export async function deleteEntry(id: string): Promise<boolean> {
     allBlogEntries.splice(index, 1);
     const newJsonEntries = JSON.stringify(allBlogEntries, null, 2);
     await createFile(FILE_PATH, newJsonEntries);
-    return true
-  } 
-  catch (error) {
+    return true;
+  } catch (error) {
     console.error(error);
     return false;
   }
