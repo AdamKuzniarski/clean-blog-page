@@ -7,6 +7,7 @@ import entryData from "./data/entries.json";
 import publicRoutes from "./routes/publicRoutes";
 import adminRoutes from "./routes/adminRoutes";
 import * as path from "node:path"
+import { connectDB } from "./db/database";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -30,6 +31,8 @@ nunEnv.addFilter("formatDate", function (timestamp: number) {
   });
 });
 
+connectDB().then(() => {
+  console.log("Database connected successfully.");
 
 //routing 
 app.use(publicRoutes).use("/admin", adminRoutes);
@@ -52,3 +55,10 @@ app.get("/post/:id", (req: Request, res: Response) => {
 app.listen(PORT, () => {
   console.log(`server is Running at http://localhost:${PORT}`);
 });
+
+
+}).catch((err) => {
+  console.error("Database connection failed:", err);
+});
+
+

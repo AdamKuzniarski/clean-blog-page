@@ -3,9 +3,15 @@ import * as path from "node:path";
 import type { BlogEntries, BlogEntry } from "../types/models";
 import { randomUUID } from "node:crypto";
 import { createFile } from "../utils/fsCrudOperators";
+import { getDB } from "../db/database";
 const FILE_PATH = path.join(__dirname, "../data/entries.json");
 
-export async function getBlogEntries(): Promise<BlogEntries> {
+
+
+
+
+
+/* export async function getBlogEntries(): Promise<BlogEntries> {
   console.log("Reading blog entries from:", FILE_PATH);
   try {
     const blogEntries = await readFile(FILE_PATH, "utf-8");
@@ -19,8 +25,23 @@ export async function getBlogEntries(): Promise<BlogEntries> {
     return [];
   }
 }
+ */
 
-export async function createEntry(data: BlogEntry): Promise<boolean> {
+
+ export async function getBlogEntries(): Promise<BlogEntries> {
+  const db = getDB();
+  return new Promise((resolve, reject) => {
+db.all<BlogEntry>(`SELECT * FROM blog_entries`,[], (error:Error| null, rowData: BlogEntries)=>{
+  if(error){
+    reject(error);
+  } else {
+    resolve(rowData);
+  }
+})
+  })};
+
+
+ export async function createEntry(data: BlogEntry): Promise<boolean> {
   try {
     const oldEntries = await getBlogEntries();
     if(!data.id){
