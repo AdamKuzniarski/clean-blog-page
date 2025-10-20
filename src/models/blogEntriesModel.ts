@@ -25,7 +25,7 @@ export async function getBlogEntries(): Promise<BlogEntries> {
   const db = getDB();
   return new Promise((resolve, reject) => {
     db.all<BlogEntry>(
-      `SELECT * FROM blog_entries`,
+      `SELECT *, authors.name AS author FROM blog_entries JOIN authors ON blog_entries.author_id = authors.id`,
       [],
       (error: Error | null, rowData: BlogEntries) => {
         if (error) {
